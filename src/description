@@ -1,0 +1,114 @@
+
+From the data structure point of view, following are some important categories of algorithms −
+
+	Search − Algorithm to search an item in a data structure.
+	Sort − Algorithm to sort items in a certain order.
+	Insert − Algorithm to insert item in a data structure.
+	Update − Algorithm to update an existing item in a data structure.
+	Delete − Algorithm to delete an existing item from a data structure.
+
+Array
+	Traverse − print all the array elements one by one.
+	Insertion − Adds an element at the given index.
+	Deletion − Deletes an element at the given index.
+	Search − Searches an element using the given index or by the value.
+	Update − Updates an element at the given index.
+
+Linked List
+	Simple Linked List
+		Insertion − Adds an element at the beginning of the list.
+		Deletion − Deletes an element at the beginning of the list.
+		Display − Displays the complete list.
+		Search − Searches an element using the given key.
+		Delete − Deletes an element using the given key.
+	Doubly Linked List
+		Insertion − Adds an element at the beginning of the list.
+		Deletion − Deletes an element at the beginning of the list.
+		Insert Last − Adds an element at the end of the list.
+		Delete Last − Deletes an element from the end of the list.
+		Insert After − Adds an element after an item of the list.
+		Delete − Deletes an element from the list using the key.
+		Display forward − Displays the complete list in a forward manner.
+		Display backward − Displays the complete list in a backward manner.
+	Circular Linked List
+		insert − Inserts an element at the start of the list.
+		delete − Deletes an element from the start of the list.
+		display − Displays the list.
+		
+Stack
+	push() − Pushing (storing) an element on the stack.
+	pop() − Removing (accessing) an element from the stack.
+	peek() − get the top data element of the stack, without removing it.
+	isFull() − check if stack is full.
+	isEmpty() − check if stack is empty.
+
+Data Structure - Expression Parsing
+	Infix Notation
+	Prefix (Polish) Notation
+	Postfix (Reverse-Polish) Notation
+
+Queue
+	enqueue() − add (store) an item to the queue.
+	dequeue() − remove (access) an item from the queue.
+	peek() − Gets the element at the front of the queue without removing it.
+	isfull() − Checks if the queue is full.
+	isempty() − Checks if the queue is empty.
+
+Tree
+	Binary Tree
+	Binary Search Tree
+		Insert − Inserts an element in a tree/create a tree.
+		Search − Searches an element in a tree.
+		Preorder Traversal − Traverses a tree in a pre-order manner.
+		Inorder Traversal − Traverses a tree in an in-order manner.
+		Postorder Traversal − Traverses a tree in a post-order manner.
+
+	Red-Black Tree
+	B-tree
+	Weight-balanced Tree
+	AVL Tree
+	Spanning Tree
+	
+Binary Heap
+	Min-Heap
+	Max-Heap
+
+Hash Table
+	Hashing
+	Linear Probing
+	
+	Search − Searches an element in a hash table.
+    Insert − inserts an element in a hash table.
+	delete − Deletes an element from a hash table.	
+	
+	
+	
+Graph
+	Add Vertex − Adds a vertex to the graph.
+	Add Edge − Adds an edge between the two vertices of the graph.
+	Display Vertex − Displays a vertex of the graph.
+	
+	Data Structure - Depth First Traversal
+	Data Structure - Breadth First Traversal
+	
+
+
+Search:
+	Linear Search
+	Binary Search
+	Interpolation Search
+	
+	
+Data Structure - Sorting Techniques
+	In-place Sorting and Not-in-place Sorting
+	Stable and Not Stable Sorting
+	Adaptive and Non-Adaptive Sorting Algorithm
+	
+	Bubble Sort Algorithm
+	Data Structure and Algorithms Insertion Sort
+	Data Structure and Algorithms Selection Sort
+	Data Structures - Merge Sort Algorithm
+	Data Structure and Algorithms - Shell Sort
+	Data Structure and Algorithms - Quick Sort
+
+Tower of Hanoi
