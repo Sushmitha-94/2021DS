@@ -6,48 +6,33 @@ public class QueueArr {
 
 
 	//push
-	public static void push(int a) {
-		if(!isFull()) {
-			arr[++top]=a;
-		}
-		else
-			System.out.println("Stack is full");
+	public static void enqueue(int a) {
+		
 	}
 	
 	//pop
-	public static void pop() {
-		if(!isEmpty())
-			arr[top--]=0;
-		else
-			System.out.println("Stack is empty");
+	public static void dequeue() {
+		
 	}
 	
 	//peek
 	public static int peek() {
-		if(!isEmpty())
-			return arr[top];
 		return 0;
 	}
 	
 	//IsFull
 	public static Boolean isFull() {
-		if(arr!=null && top+1>=size)
-			return true;
 		return false;
 	}
 	
 	//ISEmpty
 	public static Boolean isEmpty() {
-		if(top==-1)
-			return true;
 		return false;
 	}
 	
 	//display
 	public static void display() {
-		for(int i=0;i<=top;i++) {
-			System.out.println(arr[i]);
-		}
+
 	}
 	
 	//Infix 
@@ -59,22 +44,22 @@ public class QueueArr {
 		size = 10;
 		arr = new int[10];
 		top=-1;
-		push(5);
-		push(15);
-		push(20);
+		enqueue(5);
+		enqueue(15);
+		enqueue(20);
 		display();
 		System.out.println("Peek:"+peek());
-		pop();
-		push(25);
-		push(115);
-		push(220);
-		push(53);
-		push(145);
-		push(250);
-		push(54);
-		push(165);
-		push(270);
-		push(280);
+		dequeue();
+		enqueue(25);
+		enqueue(115);
+		enqueue(220);
+		enqueue(53);
+		enqueue(145);
+		enqueue(250);
+		enqueue(54);
+		enqueue(165);
+		enqueue(270);
+		enqueue(280);
 		display();
 		System.out.println("Peek:"+peek());
 		
