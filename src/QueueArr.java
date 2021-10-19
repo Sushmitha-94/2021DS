@@ -1,7 +1,7 @@
 
 public class QueueArr {
 
-	static int arr[],top,rear;
+	static int arr[],top;
 	static int size;
 
 
@@ -25,10 +25,10 @@ public class QueueArr {
 			System.out.println("Queue is empty");
 	}
 	
-	//peek
+	//front element
 	public static int front() {
 		if(!isEmpty())
-			return arr[top];
+			return arr[0];
 		return 0;
 	}
 	
@@ -53,16 +53,13 @@ public class QueueArr {
 		}
 	}
 	
-	//Infix 
-	
-	//postfix
+
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		size = 10;
 		arr = new int[10];
 		top=-1;
-		rear = 0;
 		enqueue(5);
 		enqueue(15);
 		enqueue(20);
